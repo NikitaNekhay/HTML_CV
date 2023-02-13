@@ -1,0 +1,41 @@
+    .backery_form{
+
+        background-color:floralwhite;
+        transition: background-color 300ms ease;
+        min-height: 100%;
+        margin: 0;
+        width: 100%;
+    }
+
+    .backery_filling {
+        margin: 10px;
+        height: 0px;
+        bottom: 50px;
+    }
+
+    .internal_links{
+
+        color: black; 
+        text-decoration: none; 
+        padding-left: 10pt; 
+        display: inline-flexbox;
+    
+    }
+
+    .href_links{
+        color:darkorange; 
+        text-decoration:overline;
+        margin-block-end: 6px;
+    }
+
+    .img_descript{
+        font-size:18px; 
+        text-decoration: underline;
+
+    }
+
+    .img_descript{
+        font-size:18px; 
+        text-decoration: underline;
+
+    }
