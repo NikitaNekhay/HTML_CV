@@ -39,3 +39,38 @@
         text-decoration: underline;
 
     }
+
+    .container{
+        display: grid;
+        grid-template-columns:max-content;
+        grid-template-rows: max-content;
+        /* grid-template-areas:none; */
+        grid-template: auto;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        grid-gap:0px;
+        justify-items:auto;
+        /* align-items:baseline;
+        place-items:calc();
+        justify-content:baseline;
+        align-content:baseline;
+        place-content:calc(); */
+        grid-auto-columns:auto;
+        grid-auto-rows:auto;
+        /* grid-auto-flow:column; */
+        grid:0px;
+    }
+
+    .grid-item4{
+        /* grid-column-start
+        grid-column-end
+        grid-row-start
+        grid-row-end*/
+        grid-column:auto;
+        grid-row:auto;
+       /* grid-area
+        justify-self
+        align-self
+        place-self */
+
+    }
