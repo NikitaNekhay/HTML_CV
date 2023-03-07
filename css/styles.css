@@ -74,3 +74,20 @@
         place-self */
 
     }
+
+    .text-image{
+        background-image: url('../images/NIKITA.JPG');
+        background-size:cover;
+        position: relative;
+        width:  400px;
+        height:  400px;
+        background-size: 16%;
+        background-repeat: no-repeat;
+        /*background-position:center;*/
+        background-position:53%;
+        background-attachment: fixed;
+        -webkit-background-clip: text;
+        color: transparent;
+        line-height: 2px;
+        
+    }
